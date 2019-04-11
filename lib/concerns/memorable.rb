@@ -1,7 +1,7 @@
 module  Memorable
   module ClassMethods
     def all
-      @@all
+      self.all
     end
 
     def reset_all
